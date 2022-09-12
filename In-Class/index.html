@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script>
+      let num1 = 5,
+        num2 = 3;
+      document.write(<p>num1 + " + " + num2</p>);
+      let yesorno = confirm("press a button");
+      if (yesorno == true) {
+        document.write("You clicked OK!");
+      } else {
+        document.write("You clicked CANCEL!");
+      }
+      let name = prompt("what is your name", "Guest");
+      document.write("Welcome " + name);
+      let x = 5;
+      let y = 10;
+      function sum() {
+        let sum = x + y;
+        alert(sum);
+      }
+      function f() {
+        console.log(x);
+        if (true) {
+          var x = 5;
+        }
+        console.log(x);
+      }
+    </script>
+    <h1>Test</h1>
+  </body>
+</html>
