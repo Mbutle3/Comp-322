@@ -1,0 +1,26 @@
+#div1 {
+  height: 343px;
+  width: 429;
+  align-content: center;
+  margin-left: 40%;
+}
+#div2 {
+  font-size: 16px;
+}
+#div3 {
+  align-content: center;
+  margin-left: 10%;
+}
+.pUnderline {
+  text-decoration: underline;
+}
+
+.pColor {
+  color: red;
+  font-weight: bold;
+}
+
+mark {
+  background-color: orange;
+  color: black;
+}
